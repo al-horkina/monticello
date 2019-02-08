@@ -1,0 +1,10 @@
+.hero {
+  background: url("../img/Bg-header.jpg") center center no-repeat ;
+  background-size: cover;
+  @include flex-centered();
+  height: 100vh;
+  max-height: 1064px;
+  position: relative;
+
+
+}

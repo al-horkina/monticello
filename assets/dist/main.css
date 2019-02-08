@@ -1,0 +1,84 @@
+@charset "UTF-8";
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
+.wrap {
+  max-width: 1170px;
+  margin: 50px auto;
+}
+.wrap--nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero {
+  background: url("../img/Bg-header.jpg") center center no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  max-height: 1064px;
+  position: relative;
+}
+
+.nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+  color: #ffffff;
+}
+.nav__menu {
+  list-style: none;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 2;
+  align-items: center;
+}
+.nav__link {
+  text-decoration: none;
+  color: #ffffff;
+}
+.nav__link:before {
+  font-family: "FontAwesome";
+  content: "";
+  color: #ffffff;
+  font-size: 11px;
+  padding-right: 14px;
+}
+.nav__link:hover:before, .nav__link:focus:before {
+  content: "";
+  font-family: "FontAwesome";
+  color: #ffffff;
+}
+.nav__link:hover, .nav__link:focus {
+  opacity: 0.8;
+}
+.nav__soc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-item {
+  padding: 0 20px;
+}
+
+.soc__link {
+  text-decoration: none;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  width: 41px;
+  height: 40px;
+  border-radius: 50%;
+  line-height: 40px;
+  text-align: center;
+  margin-left: 16px;
+}
+
+/*# sourceMappingURL=main.css.map */

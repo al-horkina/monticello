@@ -1,0 +1,8 @@
+.wrap {
+  max-width: 1170px;
+  margin: 50px auto;
+
+  &--nav {
+    @include flex-between();
+  }
+}
