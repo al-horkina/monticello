@@ -172,4 +172,118 @@
   opacity: 0.6;
 }
 
+.projects {
+  text-align: center;
+  color: #2c4058;
+}
+.projects__title {
+  margin: 0;
+  font-family: Gotham, sans-serif;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 22px;
+  text-transform: uppercase;
+  padding: 95px 0 108px;
+  position: relative;
+}
+.projects__title:before {
+  content: "";
+  border-top: 1px solid black;
+  width: 100px;
+  height: 1px;
+  position: absolute;
+  bottom: 173px;
+  transform: translateX(110%);
+}
+
+.container {
+  display: flex;
+  position: relative;
+  margin-bottom: 140px;
+  padding-top: 70px;
+}
+.container__image {
+  width: 630px;
+  height: 470px;
+  margin-right: 67px;
+}
+.container__image img {
+  width: 100%;
+  height: 100%;
+}
+.container__image--right {
+  margin: 0 0 0 67px;
+}
+.container__bg {
+  width: 585px;
+  height: 470px;
+  background-color: #55b7ff;
+  position: absolute;
+  bottom: 70px;
+  left: -216px;
+  z-index: -1;
+}
+.container__bg--right {
+  background-color: #7e5aff;
+  left: 800px;
+}
+.container__info {
+  max-width: 460px;
+  text-align: left;
+}
+.container__info--right {
+  max-width: 473px;
+}
+.container__title {
+  margin: 0;
+  font-family: Gotham, sans-serif;
+  font-size: 44px;
+  font-weight: bold;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+.container__subtitle {
+  margin: 0;
+  text-transform: uppercase;
+  font-family: "Gotham - Book", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  padding: 53px 0 17px;
+}
+.container__text {
+  margin: 0;
+  color: #4b5562;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 38px 0 44px;
+  letter-spacing: 0.5px;
+}
+.container__text--italic {
+  color: #2c4058;
+  font-style: italic;
+  padding-top: 66px;
+  font-size: 16px;
+}
+.container__text--italic .fa {
+  padding-right: 8px;
+}
+.container__link {
+  font-family: "Gotham - Book", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-transform: uppercase;
+  border: 1px solid #2c4058;
+  padding: 17px 40px;
+  text-decoration: none;
+  margin-left: 2px;
+  color: #2c4058;
+}
+.container__link:hover, .container__link:focus {
+  color: #7e5aff;
+  border-color: #7e5aff;
+}
+
 /*# sourceMappingURL=main.css.map */

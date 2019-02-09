@@ -1,0 +1,25 @@
+.projects {
+  text-align: center;
+  color: $dark;
+
+  &__title {
+    margin: 0;
+    font-family: Gotham, sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 22px;
+    text-transform: uppercase;
+    padding: 95px 0 108px;
+    position: relative;
+
+    &:before {
+      content: '';
+      border-top: 1px solid $black;
+      width: 100px;
+      height: 1px;
+      position: absolute;
+      bottom: 173px;
+      transform: translateX(110%);
+    }
+  }
+}

@@ -1,0 +1,107 @@
+.container {
+  @include flex();
+  position: relative;
+  margin-bottom: 140px;
+  padding-top: 70px;
+
+  &__image {
+    width: 630px;
+    height: 470px;
+    margin-right: 67px;
+
+    & img {
+      width: 100%;
+      height: 100%;
+    }
+
+    &--right {
+      margin: 0 0 0 67px;
+    }
+  }
+
+  &__bg {
+    width: 585px;
+    height: 470px;
+    background-color: $blue;
+    position: absolute;
+    bottom: 70px;
+    left: -216px;
+    z-index: -1;
+
+    &--right {
+      background-color: $violet;
+      left: 800px;
+    }
+  }
+
+  &__info {
+    max-width: 460px;
+    text-align: left ;
+
+    &--right {
+      max-width: 473px;
+    }
+  }
+
+  &__title {
+    margin: 0;
+    font-family: Gotham, sans-serif;
+    font-size: 44px;
+    font-weight: bold;
+    line-height: 24px;
+    text-transform: uppercase;
+  }
+
+  &__subtitle {
+    margin: 0;
+    text-transform: uppercase;
+    font-family: "Gotham - Book", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    padding: 53px 0 17px;
+  }
+
+  &__text {
+    margin: 0;
+    color: $c-text;
+    font-family: "Open Sans",sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 38px 0 44px;
+    letter-spacing: 0.5px;
+
+    &--italic {
+      color: $dark;
+      font-style: italic;
+      padding-top: 66px;
+      font-size: 16px;
+
+      & .fa {
+        padding-right: 8px;
+      }
+    }
+  }
+
+  &__link {
+    font-family: "Gotham - Book", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-transform: uppercase;
+    border: 1px solid $dark;
+    padding: 17px 40px;
+    text-decoration: none;
+    margin-left: 2px;
+    color: $dark;
+
+    &:hover,
+    &:focus {
+      color: $violet;
+      border-color: $violet;
+    }
+
+  }
+
+}
+
