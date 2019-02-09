@@ -5,6 +5,7 @@
   left: 0;
   z-index: 2;
   color: $white;
+  font-family: "Gotham - Book", sans-serif;
 
   &__menu {
     list-style: none;
@@ -16,6 +17,7 @@
     @include flex-between();
     flex-grow: 2;
     align-items: center;
+    padding: 0 68px;
   }
 
   &__link {
@@ -28,7 +30,6 @@
       color: $white;
       font-size: 11px;
       padding-right: 14px;
-
     }
 
     &:hover:before,
@@ -40,21 +41,25 @@
 
     &:hover,
     &:focus {
-      opacity: .8;
+      opacity: .6;
     }
-
   }
 
   &__soc {
     @include flex-between();
     align-items: center;
-
+    }
   }
-}
 
 .list-item {
-  padding: 0 20px;
+  padding: 0 10px;
 
+  &:first-child {
+    padding-left: 20px;
+  }
+  &:last-child {
+    padding-right: 0;
+  }
 }
 
 .soc__link {
@@ -68,4 +73,8 @@
   text-align: center;
   margin-left: 16px;
 
+  &:hover,
+  &:focus {
+    opacity: .6;
+  }
 }

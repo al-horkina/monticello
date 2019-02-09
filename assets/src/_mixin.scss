@@ -12,3 +12,10 @@
   @include flex();
   justify-content: space-between;
 }
+
+@mixin flex-centered-col {
+  @include flex();
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
