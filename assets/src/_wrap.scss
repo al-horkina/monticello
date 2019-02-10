@@ -1,6 +1,7 @@
 .wrap {
   max-width: 1170px;
   margin: 50px auto;
+  text-align: center;
 
   &--nav {
     @include flex-between();
@@ -33,6 +34,13 @@
       &:before {
         border-color: $white;
         bottom: 119px;
+      }
+
+    }
+
+    &--center {
+      &:before {
+        transform: translateX(55%);
       }
 
     }

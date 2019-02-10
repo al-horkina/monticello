@@ -9,5 +9,7 @@
             autoplay: true,
             autoplaySpeed: 4000
         });
+
+        $(".fancybox").fancybox();
     });
 })(jQuery);
